@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/********** NAV **********/
+header {
+background-color: #B0B3BC;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 5px;
+padding-top: 5px;
+margin-bottom: 35px;
+}
+
+header nav {
+margin: auto;
+text-align: center;
+}
+
+header li {
+display: inline-block;
+list-style: none;
+margin: 10px 5px 15px 5px;
+
+}
+
+header img {
+width: 50px;
+height: 50px;
+padding-left: 10px;
+cursor: pointer;
+}
+
+header a {
+border: 2px solid #F98E36;
+text-decoration: none;
+padding: 5px 5px;
+border-radius: 12px 0px;
+color: #4f76a1;
+background-color: #ffffff;
+display: block;
+font-weight: bold;
+font-size: 90%;
+}
+
+header a:hover {
+transform: scale(1.05);
+transform: rotate(3deg);
+transition: all 0.1s ease-in-out;
+}
+
+header h3 {
+cursor: pointer;
+padding-left: 10px;
+color: orange;
+text-shadow: black 2px 2px 2px;
+}
+
+/********** NAV **********/
+
+
+
+/********** MAIN 1 **********/
+
+.area-1 {
+display: flex;
+flex-direction: column;
+text-align: center;
+max-width: 1000px;
+margin: 40px auto;
+}
+
+.img-box {
+max-width: 1000px;
+height: auto;
+position: relative;
+}
+
+.area-1 h1 {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.description-box {
+background-color: #c5eaffcb;
+white-space: nowrap;
+padding: 10px 20px;
+border: 2px solid #878688cb;
+border-radius: 5px;
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translateX(-50%);
+}
+
+/* .description-box:hover {
+background-color: #6D96BD;
+cursor: pointer;
+border: 2px solid #000000cb;
+transition: all 0.18s;
+} */
+
+.area-1 p {
+margin-bottom: 10px;
+}
+
+/********** MAIN 1 **********/
+
+
+
+/********** MAIN 2 **********/
+.area-2 {
+max-width: 1000px;
+margin: 25px auto;
+}
+
+.area-2 h3 {
+text-align: center;
+font-weight: bold;
+}
+
+.area-2 p {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.cards-box {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-items: center;
+grid-gap: 20px;
+}
+
+.card {
+inline-size: min-content;
+text-align: center;
+display: flex;
+flex-direction: column;
+background-color: #F4F5F3;
+height: 375px;
+margin: 0 auto;
+border: 3px solid #a4c0db;
+border-radius: 5px;
+}
+
+.card:hover {
+border: 3px solid #67849e;
+transition: all 0.2s;
+transform: scale(1.01);
+background-color: #d5e3ec;
+}
+
+.card img {
+flex: 3;
+}
+
+.desc-wrapper {
+flex: 1;
+}
+
+.desc-wrapper p {
+margin: 0;
+padding: 30px 5px 10px 5px;
+font-weight: bold;
+}
+
+
+/********** MAIN 2 **********/
+
+/********** FOOTER **********/
+footer {
+background-color: #C4C0CB;
+}
+
+.doggy {
+color: orange;
+font-weight: bold;
+text-shadow: black -2px 2px;
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+}
+
+#owner {
+color: gray;
+font-size: 85%;
+text-align: center;
+}
+
+/********** FOOTER **********/
