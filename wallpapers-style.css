@@ -52,8 +52,7 @@ font-size: 90%;
 }
 
 header a:hover {
-transform: scale(1.05);
-transform: rotate(3deg);
+border: 2px solid #68acc9;
 transition: all 0.1s ease-in-out;
 }
 
@@ -64,7 +63,21 @@ color: orange;
 text-shadow: black 2px 2px 2px;
 }
 
+#nav-img {
+margin-left: 15px;
+padding-right: 5px;
+}
+
+#nav-img h3 {
+padding: 0;
+}
+
+#nav-img img {
+padding: 0;
+}
+
 /********** NAV **********/
+
 
 
 /********** WALLPAPERS AREA **********/
@@ -72,8 +85,8 @@ text-shadow: black 2px 2px 2px;
 
 .wallp-box {
 display: flex;
-flex-direction: row;
 flex-wrap: wrap;
+justify-content: space-evenly;
 }
 
 .wallp-box img {
@@ -86,6 +99,7 @@ width: 100%;
 
 
 /********** WALLPAPERS AREA **********/
+
 
 
 /********** FOOTER **********/

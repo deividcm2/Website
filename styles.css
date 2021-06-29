@@ -52,8 +52,7 @@ font-size: 90%;
 }
 
 header a:hover {
-transform: scale(1.05);
-transform: rotate(3deg);
+border: 2px solid #68acc9;
 transition: all 0.1s ease-in-out;
 }
 
@@ -62,6 +61,19 @@ cursor: pointer;
 padding-left: 10px;
 color: orange;
 text-shadow: black 2px 2px 2px;
+}
+
+#nav-img {
+margin-left: 15px;
+padding-right: 5px;
+}
+
+#nav-img h3 {
+padding: 0;
+}
+
+#nav-img img {
+padding: 0;
 }
 
 /********** NAV **********/
