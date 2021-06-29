@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/********** NAV **********/
+header {
+background-color: #d0d1d3;
+background-image: linear-gradient(#c9cbd1, #fff);
+border-bottom: 2px #CFD1D6 dotted;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 5px;
+padding-top: 5px;
+margin-bottom: 35px;
+}
+
+header nav {
+margin: auto;
+text-align: center;
+}
+
+header li {
+display: inline-block;
+list-style: none;
+margin: 10px 5px 15px 5px;
+
+}
+
+header img {
+width: 50px;
+height: 50px;
+padding-left: 10px;
+cursor: pointer;
+}
+
+header a {
+border: 2px solid #F98E36;
+text-decoration: none;
+padding: 5px 5px;
+border-radius: 12px 0px;
+color: #4f76a1;
+background-color: #ffffff;
+display: block;
+font-weight: bold;
+font-size: 90%;
+}
+
+header a:hover {
+transform: scale(1.05);
+transform: rotate(3deg);
+transition: all 0.1s ease-in-out;
+}
+
+header h3 {
+cursor: pointer;
+padding-left: 10px;
+color: orange;
+text-shadow: black 2px 2px 2px;
+}
+
+/********** NAV **********/
+
+
+/********** WALLPAPERS AREA **********/
+
+
+.wallp-box {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.wallp-box img {
+width: 100%;
+}
+
+
+
+
+
+
+/********** WALLPAPERS AREA **********/
+
+
+/********** FOOTER **********/
+footer {
+background-color: #C4C0CB;
+}
+
+.doggy {
+color: orange;
+font-weight: bold;
+text-shadow: black -2px 2px;
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+}
+
+#owner {
+color: gray;
+font-size: 85%;
+text-align: center;
+}
+
+/********** FOOTER **********/
