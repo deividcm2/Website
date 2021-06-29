@@ -9,7 +9,9 @@
 
 /********** NAV **********/
 header {
-background-color: #B0B3BC;
+background-color: #d0d1d3;
+background-image: linear-gradient(#c9cbd1, #fff);
+border-bottom: 2px #CFD1D6 dotted;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -66,7 +68,7 @@ text-shadow: black 2px 2px 2px;
 
 
 
-/********** MAIN 1 **********/
+/********** MAIN CONTENT 1 **********/
 
 .area-1 {
 display: flex;
@@ -78,8 +80,11 @@ margin: 40px auto;
 
 .img-box {
 max-width: 1000px;
-height: auto;
 position: relative;
+}
+
+.img-box img {
+width: 100%;
 }
 
 .area-1 h1 {
@@ -110,11 +115,11 @@ transition: all 0.18s;
 margin-bottom: 10px;
 }
 
-/********** MAIN 1 **********/
+/********** MAIN CONTENT 1 **********/
 
 
 
-/********** MAIN 2 **********/
+/********** MAIN CONTENT 2 **********/
 .area-2 {
 max-width: 1000px;
 margin: 25px auto;
@@ -131,22 +136,22 @@ margin-bottom: 40px;
 }
 
 .cards-box {
-display: grid;
+/* display: grid;
 grid-template-columns: repeat(2, 1fr);
 justify-items: center;
-grid-gap: 20px;
+grid-gap: 20px; */
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
 
 .card {
 inline-size: min-content;
-text-align: center;
-display: flex;
-flex-direction: column;
 background-color: #F4F5F3;
-height: 375px;
-margin: 0 auto;
 border: 3px solid #a4c0db;
 border-radius: 5px;
+margin-bottom: 15px;
 }
 
 .card:hover {
@@ -171,7 +176,7 @@ font-weight: bold;
 }
 
 
-/********** MAIN 2 **********/
+/********** MAIN CONTENT 2 **********/
 
 /********** FOOTER **********/
 footer {
