@@ -93,7 +93,21 @@ justify-content: space-evenly;
 width: 100%;
 }
 
+.pag-nav {
+display: flex;
+justify-content: center;
+border-top:2px solid #B5B5E2;
+margin-top: 10px;
+}
 
+.pag-nav a {
+color: rgb(34, 34, 34);
+text-decoration: none;
+padding: 10px 15px;
+background-color: rgb(181, 181, 226);
+margin: 15px 0 10px 10px;
+border-radius: 50%;
+}
 
 
 
