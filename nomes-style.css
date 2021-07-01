@@ -80,39 +80,33 @@ padding: 0;
 
 
 
-/********** WALLPAPERS AREA **********/
+/********** NOMES **********/
 
-
-.wallp-box {
+.nomes {
+width: 600px;
 display: flex;
-flex-wrap: wrap;
+flex-direction: column;
+margin: 0 auto;
+}
+
+.nomes ul {
+list-style:disc;
+}
+
+.nomes h3 {
+text-align: center;
+margin-bottom: 25px;
+border-bottom: 2px solid #F99027;
+padding-bottom: 5px;
+}
+
+.list {
+display: flex;
 justify-content: space-evenly;
 }
 
-.wallp-box img {
-width: 100%;
-}
 
-.pag-nav {
-display: flex;
-justify-content: center;
-border-top:2px solid #B5B5E2;
-margin-top: 10px;
-}
-
-.pag-nav a {
-color: rgb(34, 34, 34);
-text-decoration: none;
-padding: 10px 15px;
-background-color: rgb(181, 181, 226);
-margin: 15px 0 10px 10px;
-border-radius: 50%;
-}
-
-
-
-
-/********** WALLPAPERS AREA **********/
+/********** NOMES **********/
 
 
 

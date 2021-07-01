@@ -9,9 +9,9 @@
 
 /********** NAV **********/
 header {
-background-color: #d0d1d3;
-background-image: linear-gradient(#c9cbd1, #fff);
-border-bottom: 2px #CFD1D6 dotted;
+background-color: #d3ddfd;
+background-image: linear-gradient(#d3ddfd, #fff);
+border-bottom: 2px #d3ddfd solid;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -114,14 +114,15 @@ position: absolute;
 top: 85%;
 left: 50%;
 transform: translateX(-50%);
+color: rgb(35, 69, 88);
 }
 
-/* .description-box:hover {
-background-color: #6D96BD;
+.description-box:hover {
+background-color: #ffffff;
+color: rgb(35, 69, 88);
 cursor: pointer;
-border: 2px solid #000000cb;
-transition: all 0.18s;
-} */
+transition: all 0.3s;
+}
 
 .area-1 p {
 margin-bottom: 10px;
@@ -188,7 +189,8 @@ font-weight: bold;
 
 /********** FOOTER **********/
 footer {
-background-color: #C4C0CB;
+background-color: #d3ddfd;
+border-top: 2px solid #adbae4;
 }
 
 .doggy {

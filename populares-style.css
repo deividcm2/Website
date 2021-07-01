@@ -80,41 +80,34 @@ padding: 0;
 
 
 
-/********** WALLPAPERS AREA **********/
+/********** POPULARES **********/
 
-
-.wallp-box {
+.populares {
+width: 800px;
 display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
+flex-direction: column;
+justify-items: center;
+margin: 0 auto;
 }
 
-.wallp-box img {
-width: 100%;
+.populares div img {
+margin: 15px 0px 15px 0px;
+border: 2px solid #D5DFFE;
+border-radius: 7px;
 }
 
-.pag-nav {
-display: flex;
-justify-content: center;
-border-top:2px solid #B5B5E2;
-margin-top: 10px;
+.populares p {
+margin-bottom: 60px;
 }
 
-.pag-nav a {
-color: rgb(34, 34, 34);
-text-decoration: none;
-padding: 10px 15px;
-background-color: rgb(181, 181, 226);
-margin: 15px 0 10px 10px;
-border-radius: 50%;
+.populares h3 {
+border-bottom: 2px solid #F99027;
+margin-bottom: 20px;
 }
 
 
 
-
-/********** WALLPAPERS AREA **********/
-
-
+/********** POPULARES **********/
 
 /********** FOOTER **********/
 footer {
