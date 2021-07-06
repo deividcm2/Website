@@ -10,8 +10,8 @@
 /********** NAV **********/
 header {
 background-color: #d3ddfd;
-background-image: linear-gradient(#d3ddfd, #fff);
 border-bottom: 2px #d3ddfd solid;
+box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.418);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -40,11 +40,12 @@ cursor: pointer;
 }
 
 header a {
-border: 2px solid #F98E36;
+border: 2px solid #6177af;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.466);
 text-decoration: none;
 padding: 5px 5px;
 border-radius: 12px 0px;
-color: #4f76a1;
+color: #5a5a5a;
 background-color: #ffffff;
 display: block;
 font-weight: bold;
@@ -53,6 +54,7 @@ font-size: 90%;
 
 header a:hover {
 border: 2px solid #68acc9;
+transform: translateY(2.5px);
 transition: all 0.1s ease-in-out;
 }
 
@@ -83,30 +85,40 @@ padding: 0;
 /********** POPULARES **********/
 
 .populares {
-width: 800px;
 display: flex;
 flex-direction: column;
-justify-items: center;
+max-width: 800px;
 margin: 0 auto;
 }
 
-.populares div img {
-margin: 15px 0px 15px 0px;
-border: 2px solid #D5DFFE;
-border-radius: 7px;
+.populares div {
+max-width: 800px;
+padding: 0px 5px;
 }
+
+.populares div img {
+width: 99.2%;
+border: 2px solid #FB9958;
+border-radius: 10px;
+}
+
+.populares div h2 {
+margin-left: 10px;
+margin-bottom: 5px;
+}
+
 
 .populares p {
 margin-bottom: 60px;
+padding: 0px 5px;
 }
 
 .populares h3 {
 border-bottom: 2px solid #F99027;
-margin-bottom: 20px;
-padding-bottom: 5px;
+margin-bottom: 35px;
+padding: 5px 5px;
+font-weight: normal;
 }
-
-
 
 /********** POPULARES **********/
 

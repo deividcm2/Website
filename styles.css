@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -10,8 +11,8 @@
 /********** NAV **********/
 header {
 background-color: #d3ddfd;
-background-image: linear-gradient(#d3ddfd, #fff);
 border-bottom: 2px #d3ddfd solid;
+box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.418);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -40,11 +41,12 @@ cursor: pointer;
 }
 
 header a {
-border: 2px solid #F98E36;
+border: 2px solid #6177af;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.466);
 text-decoration: none;
 padding: 5px 5px;
 border-radius: 12px 0px;
-color: #4f76a1;
+color: #5a5a5a;
 background-color: #ffffff;
 display: block;
 font-weight: bold;
@@ -53,6 +55,7 @@ font-size: 90%;
 
 header a:hover {
 border: 2px solid #68acc9;
+transform: translateY(2.5px);
 transition: all 0.1s ease-in-out;
 }
 
@@ -91,12 +94,14 @@ margin: 40px auto;
 }
 
 .img-box {
+padding: 0px 5px;
 max-width: 1000px;
 position: relative;
 }
 
 .img-box img {
 width: 100%;
+border-radius: 15px;
 }
 
 .area-1 h1 {
@@ -140,12 +145,20 @@ margin: 25px auto;
 
 .area-2 h3 {
 text-align: center;
-font-weight: bold;
+font-weight: normal;
+border-bottom: 1px solid black;
+padding-bottom: 10px;
+font-family: 'Work Sans', sans-serif;
 }
 
 .area-2 p {
 text-align: center;
 margin-bottom: 40px;
+}
+
+.area-2 a {
+text-decoration: none;
+color: #757575;
 }
 
 .cards-box {
@@ -158,20 +171,18 @@ justify-content: space-evenly;
 .card {
 inline-size: min-content;
 background-color: #F4F5F3;
-border: 3px solid #a4c0db;
 border-radius: 5px;
 margin-bottom: 15px;
 }
 
 .card:hover {
-border: 3px solid #67849e;
 transition: all 0.2s;
-transform: scale(1.01);
 background-color: #d5e3ec;
 }
 
 .card img {
 flex: 3;
+border-radius: 5px;
 }
 
 .desc-wrapper {
@@ -182,6 +193,7 @@ flex: 1;
 margin: 0;
 padding: 30px 5px 10px 5px;
 font-weight: bold;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
 }
 
 
